@@ -1,0 +1,28 @@
+.valeurs-en-image {
+    background-color: #0B0C21;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3%;
+    width: 85%;
+    margin: 64px auto;
+}
+
+.valeurs-en-image__cellule {
+    font-family: 'Poppins';
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.valeurs-en-image__gauche, .valeurs-en-image__droite {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.valeurs-en-image__ligne {
+    width: 1px;
+    background-color: white;
+}

@@ -1,0 +1,27 @@
+.prefooter {
+    display: flex;
+    justify-content: space-around;
+}
+
+.prefooter__village {
+    color: white;
+    font-size: 100px;
+    font-family: 'Alex Brush';
+}
+
+.prefooter__identite {
+    color: white;
+    font-size: 70px;
+    font-family: 'Poppins';
+    line-height: 10%;
+    position: relative;
+    text-align: right;
+}
+
+.prefooter__identite img {
+    position: absolute;
+    z-index: -1;
+    width: 6rem;
+    top: 20%;
+    right: 28%;
+}

@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alex+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Mulish&display=swap');
+
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Mulish';
+    line-height: 26px;
+    font-size: 16px;
+}
+
+h5 {
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.footer {
+    display: flex;
+}
+
+.icone img {
+    width: 18px;
+    height: 18px;
+    padding: 4px;
+    border: 1px solid black;
+    border-radius: 15%;
+    margin-right: 8px;
+}
+
+.icone--bordure {
+    display: flex;
+    align-items: center;
+}
+
+.footer__nom-compagnie {
+    width: 30%;
+    margin: 32px;
+    padding-right: 12px;
+    border-right: solid 4px black;
+}
+
+.nom-compagnie__sema {
+    line-height: 50px;
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+.nom-compagnie__couleurs {
+    line-height: 46px;
+    font-size: 50px;
+    margin-bottom: 32px;
+}
+
+.footer__informations {
+    margin: 32px;
+}
+
+.informations__avec-icone {
+    margin-top: 32px;
+}

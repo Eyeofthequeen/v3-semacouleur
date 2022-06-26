@@ -1,0 +1,61 @@
+.surfaces {
+   display: flex;
+   justify-content: space-around;
+   flex-flow: wrap;
+}
+
+.surface__case {
+    background-color: #0B0C21;
+    width: 26%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1% 0;
+    border-radius: 10px;
+}
+
+.surface__case:hover {
+    background-color: #ECECEC;
+}
+
+.surface__case:hover .surface__cercle {
+    background-color: #C4C4C4;
+    mix-blend-mode: luminosity;
+}
+
+.surface__case:hover .surface__description {
+    color: black;
+}
+
+.surface__cercle {
+    background-color: white;
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.surface__description {
+    font-family: 'Poppins';
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.image__vertical {
+    width: 45%;
+}
+
+.image__horizontal {
+    width: 55%;
+}
+
+.surface__description--notice {
+    color: inherit;
+    font-family: inherit;
+    margin: 0;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 13px;
+}
